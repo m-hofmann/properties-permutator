@@ -71,6 +71,12 @@
                                         <include>*.json</include>
                                     </includes>
                                 </resource>
+                                <resource>
+                                    <directory>bin</directory>
+                                    <includes>
+                                        <include>permutator.sh</include>
+                                    </includes>
+                                </resource>
                             </resources>
                         </configuration>
                     </execution>
