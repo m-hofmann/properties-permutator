@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "name": "testjob",
+      "permutations": [
+        {
+          "propertyName": "key4",
+          "values": ["onevalue"]
+        },
+        {
+          "propertyName": "key3",
+          "values": ["foo","bar"]
+        },
+        {
+          "propertyName": "key2",
+          "values": [1,2,3]
+        }
+      ]
+    }
+  ]
+}
