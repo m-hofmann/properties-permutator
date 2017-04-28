@@ -34,7 +34,7 @@ public class Permutator {
 
         Set<PermutatedProperties> permutations = new HashSet<>();
         for (Job job: jobfile.jobs) {
-             permutations.addAll(job.permutate(properties));
+             permutations.addAll(job.permutate(properties, options));
         }
 
         logger.info("Retrieved " + permutations.size() + " permuations.");

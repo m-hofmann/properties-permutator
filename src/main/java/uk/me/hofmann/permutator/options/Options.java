@@ -12,4 +12,7 @@ public class Options {
 
     @Parameter(names = {"-outdir"}, description = "Path to the directory the output should be written to", required = true)
     public String outputDirectory;
+
+    @Parameter(names = {"-shorten"}, description = "Shorten camel case names of properties to avoid path too long exception")
+    public boolean shorten;
 }
